@@ -1,185 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Teófilo Roberto Potes — 50 años</title>
-  <link rel="stylesheet" href="estiloindex.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colegio San José - Proyecto Institucional</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- NAVBAR -->
   <header class="navbar">
     <div class="container navbar-inner">
-      <a class="brand" href="#">Teófilo Roberto Potes</a>
-
-      <nav id="mainNav" class="nav">
-        <a href="#historia">Historia</a>
-        <a href="#uniformes">Uniformes</a>
-        <a href="#galeria">Galería</a>
-        <a href="#videos">Videos</a>
-        <a href="#escudo">Escudo</a>
-      </nav>
-
-      <button id="navToggle" class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <a href="#" class="brand">Colegio San José</a>
+      <button class="nav-toggle" aria-label="Abrir menú">
         <span class="burger"></span>
       </button>
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#informacion">Información</a>
+        <a href="#galeria">Galería</a>
+        <a href="#videos">Videos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
     </div>
   </header>
 
   <!-- HERO -->
-  <section class="hero">
+  <section class="hero" id="inicio">
     <div class="container hero-inner">
-      <h1 class="reveal reveal-up">50 Años del Instituto Comercial Teófilo Roberto Potes</h1>
-      <p class="lead reveal reveal-up delay-1">
-        Historia, evolución de uniformes y la transformación de sus aulas.
-      </p>
-      <a class="ctabtn reveal reveal-up delay-2" href="#historia">Conocer la historia</a>
+      <h1 class="reveal">Institución Educativa Colegio San José</h1>
+      <p class="lead reveal delay-1">Formando estudiantes con valores, disciplina y excelencia académica.</p>
+      <a href="#informacion" class="ctabtn reveal delay-2">Conocer más</a>
     </div>
   </section>
 
-  <!-- MAIN CONTENT -->
-  <main class="main-content">
-
-    <!-- HISTORIA -->
-    <section id="historia" class="section">
-      <div class="container grid">
-        <div class="col text reveal reveal-left">
-          <h2>Cómo era hace 50 años</h2>
-          <p>
-            El Instituto Comercial Teófilo Roberto Potes nace como satélite del Liceo Femenino del Pacífico,
-            gracias a la iniciativa del doctor Eusebio Muñoz Perea (decreto 0970, 12 de agosto de 1975),
-            firmado por el doctor Raúl Orejuela Bueno.
-          </p>
-          <p>
-            Empezó sus labores en condiciones rudimentarias; la escuela Luis Ablanque de la Plata y el Seminario San Buenaventura
-            facilitaron aulas a la naciente institución. El 28 de noviembre se le entrega su sede en el barrio Bellavista,
-            comenzando su autonomía. La aprobación de Básica Secundaria se realizó mediante la resolución No. 2395 (3 de mayo de 1976).
-          </p>
+  <!-- INFORMACIÓN -->
+  <section class="section" id="informacion">
+    <div class="container reveal-up">
+      <h2>Sobre Nosotros</h2>
+      <p>El Colegio San José es una institución educativa comprometida con el desarrollo integral de los estudiantes, fomentando valores humanos, responsabilidad y pensamiento crítico. Nuestra misión es formar personas competentes para enfrentar los desafíos del futuro con ética y liderazgo.</p>
+      
+      <div class="two-col">
+        <div class="card reveal delay-1">
+          <h3>Misión</h3>
+          <p>Brindar una educación integral que promueva la excelencia académica y el desarrollo de valores éticos, sociales y culturales en nuestros estudiantes.</p>
         </div>
+        <div class="card reveal delay-2">
+          <h3>Visión</h3>
+          <p>Ser una institución líder reconocida por su compromiso con la formación de ciudadanos íntegros, críticos y comprometidos con el progreso de su comunidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <figure class="col media reveal reveal-right">
-          <img loading="lazy" src="" alt="Fotografía antigua del instituto">
-          <figcaption>Primeros salones y registros históricos.</figcaption>
+  <!-- GALERÍA -->
+  <section class="section" id="galeria">
+    <div class="container reveal-up">
+      <h2>Galería Institucional</h2>
+      <p>Algunos momentos y espacios destacados del colegio.</p>
+      <div class="gallery">
+        <figure>
+          <img src="img/aula.jpg" alt="Aula moderna">
+          <figcaption>Aulas equipadas y espacios de aprendizaje activo.</figcaption>
+        </figure>
+        <figure>
+          <img src="img/laboratorio.jpg" alt="Laboratorio de ciencias">
+          <figcaption>Laboratorios modernos para la práctica científica.</figcaption>
+        </figure>
+        <figure>
+          <img src="img/evento.jpg" alt="Evento institucional">
+          <figcaption>Eventos culturales que fortalecen la identidad institucional.</figcaption>
+        </figure>
+        <figure>
+          <img src="img/deporte.jpg" alt="Actividad deportiva">
+          <figcaption>Actividades deportivas que fomentan el trabajo en equipo.</figcaption>
         </figure>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- UNIFORMES -->
-    <section id="uniformes" class="section bg-light">
-      <div class="container">
-        <h2 class="reveal reveal-up">Uniformes — Antes y Ahora</h2>
+  <!-- VIDEOS -->
+  <section class="section" id="videos">
+    <div class="container reveal-up">
+      <h2>Videos Institucionales</h2>
+      <p>Conoce más sobre nuestras actividades y logros en video.</p>
 
-        <div class="gallery reveal reveal-up delay-1">
-          <figure>
-            <img loading="lazy" src="" alt="Uniforme antiguo">
-            <figcaption>Uniforme antiguo</figcaption>
-          </figure>
-
-          <figure>
-            <img loading="lazy" src="" alt="Uniforme actual">
-            <figcaption>Uniforme actual</figcaption>
-          </figure>
+      <div class="video-grid">
+        <div class="video-card reveal delay-1">
+          <iframe src="https://www.youtube.com/embed/Zx4xj9bAC8E" frameborder="0" allowfullscreen></iframe>
+          <h3>Proyecto Académico</h3>
+          <p>Una mirada al enfoque pedagógico del colegio.</p>
         </div>
-
-        <div class="uniform-info grid-two">
-          <div class="card reveal reveal-left">
-            <h3>Uniforme antiguo</h3>
-            <ul>
-              <li><strong>Femenino:</strong> Vestido amarillo, correa negra, zapatos negros y medias blancas.</li>
-              <li><strong>Masculino:</strong> Camisa amarilla y pantalón negro.</li>
-            </ul>
-          </div>
-
-          <div class="card reveal reveal-right">
-            <h3>Uniforme actual</h3>
-            <ul>
-              <li><strong>Femenino:</strong> Blusa blanca con escudo, falda azul oscuro, medias blancas y zapatos negros.</li>
-              <li><strong>Masculino:</strong> Camisa blanca con escudo, pantalón azul oscuro, correa y zapatos negros.</li>
-              <li>Prohibido: accesorios notables (piercings, tatuajes visibles) y cortes extravagantes.</li>
-            </ul>
-          </div>
+        <div class="video-card reveal delay-2">
+          <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+          <h3>Eventos Institucionales</h3>
+          <p>Celebraciones y actividades que fortalecen la comunidad educativa.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- GALERÍA DE FOTOS -->
-    <section id="galeria" class="section">
-      <div class="container">
-        <h2 class="reveal reveal-up">Galería Fotográfica</h2>
-        <p class="lead reveal reveal-up delay-1">Momentos importantes y recuerdos del Instituto a lo largo de los años.</p>
-
-        <div class="photo-grid reveal reveal-up delay-2">
-          <figure><img src="" alt="Foto 1"></figure>
-          <figure><img src="" alt="Foto 2"></figure>
-          <figure><img src="" alt="Foto 3"></figure>
-          <figure><img src="" alt="Foto 4"></figure>
-          <figure><img src="" alt="Foto 5"></figure>
-          <figure><img src="" alt="Foto 6"></figure>
-        </div>
-      </div>
-    </section>
-
-    <!-- VIDEOS -->
-    <section id="videos" class="section bg-light">
-      <div class="container">
-        <h2 class="reveal reveal-up">Videos Conmemorativos</h2>
-        <p class="lead reveal reveal-up delay-1">Celebrando los 50 años de historia y transformación.</p>
-
-        <div class="video-grid reveal reveal-up delay-2">
-          <div class="video-card">
-            <iframe src="" title="Video institucional" allowfullscreen></iframe>
-            <p>Video institucional — Historia del Instituto</p>
-          </div>
-
-          <div class="video-card">
-            <iframe src="" title="Entrevista con exalumnos" allowfullscreen></iframe>
-            <p>Entrevista con exalumnos</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ESCUDO -->
-    <section id="escudo" class="section">
-      <div class="container center">
-        <h2 class="reveal reveal-up">Escudo Representativo</h2>
-        <figure class="reveal reveal-up delay-1">
-          <img class="escudo" loading="lazy" src="" alt="Escudo del Instituto">
-          <figcaption>Escudo conmemorativo de 50 años</figcaption>
-        </figure>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
+  <!-- CONTACTO -->
+  <footer class="site-footer" id="contacto">
     <div class="container">
-      <p>&copy; <span id="year"></span> Instituto Comercial Teófilo Roberto Potes — Diseño responsivo</p>
+      <p>&copy; 2025 Colegio San José — Todos los derechos reservados.</p>
+      <p>Contacto: <a href="mailto:info@colegiosanjose.edu.co">info@colegiosanjose.edu.co</a></p>
     </div>
   </footer>
 
-  <!-- SCRIPTS -->
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.nav');
+    toggle.addEventListener('click', () => nav.classList.toggle('nav-open'));
 
-    const navToggle = document.getElementById('navToggle');
-    const mainNav = document.getElementById('mainNav');
-    navToggle.addEventListener('click', () => {
-      const expanded = navToggle.getAttribute('aria-expanded') === 'true' || false;
-      navToggle.setAttribute('aria-expanded', !expanded);
-      mainNav.classList.toggle('nav-open');
-    });
-
+    // Animaciones reveal
     const reveals = document.querySelectorAll('.reveal');
-    const observer = new IntersectionObserver((entries) => {
+    const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) entry.target.classList.add('is-visible');
       });
-    }, { threshold: 0.15 });
-
+    }, { threshold: 0.2 });
     reveals.forEach(r => observer.observe(r));
   </script>
+
 </body>
 </html>
