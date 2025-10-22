@@ -11,12 +11,13 @@
   <!-- NAVBAR -->
   <header class="navbar">
     <div class="container navbar-inner">
-      <a class="brand" href="#">Teófilo R. Potes</a>
+      <a class="brand" href="#">Teófilo Roberto Potes</a>
 
       <nav id="mainNav" class="nav">
         <a href="#historia">Historia</a>
         <a href="#uniformes">Uniformes</a>
-        <a href="#aulas">Aulas</a>
+        <a href="#galeria">Galería</a>
+        <a href="#videos">Videos</a>
         <a href="#escudo">Escudo</a>
       </nav>
 
@@ -37,16 +38,16 @@
     </div>
   </section>
 
-  <!-- MAIN -->
-  <main class="container main" role="main">
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
 
     <!-- HISTORIA -->
     <section id="historia" class="section">
-      <div class="grid">
+      <div class="container grid">
         <div class="col text reveal reveal-left">
           <h2>Cómo era hace 50 años</h2>
           <p>
-            El Instituto Comercial Teófilo Roberto Potes nace como satélite del Liceo Femenino del Pacífico
+            El Instituto Comercial Teófilo Roberto Potes nace como satélite del Liceo Femenino del Pacífico,
             gracias a la iniciativa del doctor Eusebio Muñoz Perea (decreto 0970, 12 de agosto de 1975),
             firmado por el doctor Raúl Orejuela Bueno.
           </p>
@@ -58,65 +59,96 @@
         </div>
 
         <figure class="col media reveal reveal-right">
-          <img loading="lazy" src="" alt="">
+          <img loading="lazy" src="" alt="Fotografía antigua del instituto">
           <figcaption>Primeros salones y registros históricos.</figcaption>
         </figure>
       </div>
     </section>
 
     <!-- UNIFORMES -->
-    <section id="uniformes" class="section">
-      <h2 class="reveal reveal-up">Uniformes — Antes y Ahora</h2>
+    <section id="uniformes" class="section bg-light">
+      <div class="container">
+        <h2 class="reveal reveal-up">Uniformes — Antes y Ahora</h2>
 
-      <div class="gallery reveal reveal-up delay-1">
-        <figure>
-          <img loading="lazy" src="" alt="">
-          <figcaption>Uniforme antiguo</figcaption>
-        </figure>
+        <div class="gallery reveal reveal-up delay-1">
+          <figure>
+            <img loading="lazy" src="" alt="Uniforme antiguo">
+            <figcaption>Uniforme antiguo</figcaption>
+          </figure>
 
-        <figure>
-          <img loading="lazy" src="" alt="">
-          <figcaption>Uniforme actual</figcaption>
-        </figure>
-      </div>
-
-      <div class="two-col">
-        <div class="card reveal reveal-left">
-          <h3>Uniforme antiguo</h3>
-          <ul>
-            <li><strong>Femenino:</strong> Vestido amarillo, correa negra, zapatos negros y medias blancas.</li>
-            <li><strong>Masculino:</strong> Camisa amarilla y pantalón negro.</li>
-          </ul>
+          <figure>
+            <img loading="lazy" src="" alt="Uniforme actual">
+            <figcaption>Uniforme actual</figcaption>
+          </figure>
         </div>
 
-        <div class="card reveal reveal-right">
-          <h3>Uniforme actual</h3>
-          <ul>
-            <li><strong>Femenino:</strong> Blusa blanca con escudo, falda azul oscuro, medias blancas y zapatos negros.</li>
-            <li><strong>Masculino:</strong> Camisa blanca con escudo, pantalón azul oscuro, correa y zapatos negros.</li>
-            <li>Prohibido: accesorios notables (piercings, tatuajes visibles) y cortes extravagantes.</li>
-          </ul>
+        <div class="uniform-info grid-two">
+          <div class="card reveal reveal-left">
+            <h3>Uniforme antiguo</h3>
+            <ul>
+              <li><strong>Femenino:</strong> Vestido amarillo, correa negra, zapatos negros y medias blancas.</li>
+              <li><strong>Masculino:</strong> Camisa amarilla y pantalón negro.</li>
+            </ul>
+          </div>
+
+          <div class="card reveal reveal-right">
+            <h3>Uniforme actual</h3>
+            <ul>
+              <li><strong>Femenino:</strong> Blusa blanca con escudo, falda azul oscuro, medias blancas y zapatos negros.</li>
+              <li><strong>Masculino:</strong> Camisa blanca con escudo, pantalón azul oscuro, correa y zapatos negros.</li>
+              <li>Prohibido: accesorios notables (piercings, tatuajes visibles) y cortes extravagantes.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- AULAS -->
-    <section id="aulas" class="section">
-      <h2 class="reveal reveal-up">Cancha antigua y moderna</h2>
+    <!-- GALERÍA DE FOTOS -->
+    <section id="galeria" class="section">
+      <div class="container">
+        <h2 class="reveal reveal-up">Galería Fotográfica</h2>
+        <p class="lead reveal reveal-up delay-1">Momentos importantes y recuerdos del Instituto a lo largo de los años.</p>
 
-      <div class="gallery reveal reveal-up delay-1">
-        <img loading="lazy" src="" alt="">
-        <img loading="lazy" src="" alt="">
+        <div class="photo-grid reveal reveal-up delay-2">
+          <figure><img src="" alt="Foto 1"></figure>
+          <figure><img src="" alt="Foto 2"></figure>
+          <figure><img src="" alt="Foto 3"></figure>
+          <figure><img src="" alt="Foto 4"></figure>
+          <figure><img src="" alt="Foto 5"></figure>
+          <figure><img src="" alt="Foto 6"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEOS -->
+    <section id="videos" class="section bg-light">
+      <div class="container">
+        <h2 class="reveal reveal-up">Videos Conmemorativos</h2>
+        <p class="lead reveal reveal-up delay-1">Celebrando los 50 años de historia y transformación.</p>
+
+        <div class="video-grid reveal reveal-up delay-2">
+          <div class="video-card">
+            <iframe src="" title="Video institucional" allowfullscreen></iframe>
+            <p>Video institucional — Historia del Instituto</p>
+          </div>
+
+          <div class="video-card">
+            <iframe src="" title="Entrevista con exalumnos" allowfullscreen></iframe>
+            <p>Entrevista con exalumnos</p>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- ESCUDO -->
     <section id="escudo" class="section">
-      <h2 class="reveal reveal-up">Escudo Representativo</h2>
-      <figure class="center reveal reveal-up delay-1">
-        <img class="escudo" loading="lazy" src="" alt="">
-        <figcaption>Escudo conmemorativo de 50 años</figcaption>
-      </figure>
+      <div class="container center">
+        <h2 class="reveal reveal-up">Escudo Representativo</h2>
+        <figure class="reveal reveal-up delay-1">
+          <img class="escudo" loading="lazy" src="" alt="Escudo del Instituto">
+          <figcaption>Escudo conmemorativo de 50 años</figcaption>
+        </figure>
+      </div>
     </section>
 
   </main>
@@ -128,28 +160,22 @@
     </div>
   </footer>
 
-  <!-- SCRIPTS: menú y animaciones de revelado -->
+  <!-- SCRIPTS -->
   <script>
-    // Mostrar año actual
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // Menú responsive
     const navToggle = document.getElementById('navToggle');
     const mainNav = document.getElementById('mainNav');
-
     navToggle.addEventListener('click', () => {
       const expanded = navToggle.getAttribute('aria-expanded') === 'true' || false;
       navToggle.setAttribute('aria-expanded', !expanded);
       mainNav.classList.toggle('nav-open');
     });
 
-    // IntersectionObserver para animaciones de "reveal on scroll"
     const reveals = document.querySelectorAll('.reveal');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-        }
+        if (entry.isIntersecting) entry.target.classList.add('is-visible');
       });
     }, { threshold: 0.15 });
 
@@ -157,5 +183,3 @@
   </script>
 </body>
 </html>
-
-
